@@ -1,0 +1,52 @@
+.greeting,
+.definition {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.greeting {
+  position: absolute;
+  left: 85px;
+  top: 215px;
+}
+
+.definition {
+  position: absolute;
+  left: 86px;
+  top: 270px;
+}
+
+.description {
+  position: absolute;
+  width: 471px;
+  height: 140px;
+  left: 85px;
+  top: 345px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.insta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 19px;
+
+  position: absolute;
+  width: 195px;
+  height: 38px;
+  left: 85px;
+  top: 536px;
+}

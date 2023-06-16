@@ -1,0 +1,22 @@
+.nav {
+  padding-top: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.links {
+  width: 95px;
+  height: 28px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffcc80;
+  text-decoration: none;
+}
+
+.links:last-child {
+  padding-right: 80px;
+}

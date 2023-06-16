@@ -1,0 +1,28 @@
+.btn {
+  position: absolute;
+  width: 429px;
+  height: 85px;
+  left: 533px;
+  top: 559px;
+  box-sizing: border-box;
+  background: linear-gradient(114.97deg, #a400ff 4.44%, #ffcc80 112.57%);
+  /* main shadow */
+
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(114.97deg, #ffcc80 4.44%, #a400ff 112.57%);
+}
+
+.btn_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}

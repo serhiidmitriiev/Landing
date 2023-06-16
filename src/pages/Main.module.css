@@ -1,0 +1,66 @@
+.main {
+  height: 750px;
+  background: linear-gradient(
+      223.25deg,
+      #6a00a5 50.94%,
+      rgba(203, 109, 255, 0.21) 143.39%
+    ),
+    linear-gradient(
+      223.25deg,
+      #6a00a5 50.94%,
+      rgba(203, 109, 255, 0.21) 143.39%
+    );
+}
+
+.globe1 {
+  position: absolute;
+  width: 98.87px;
+  height: 98.87px;
+  left: 414px;
+  top: 20px;
+
+  filter: drop-shadow(0px 4px 10px rgba(255, 255, 255, 0.15));
+}
+
+.globe2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 21px;
+  top: -60px;
+
+  filter: drop-shadow(0px 4px 30px rgba(255, 255, 255, 0.45));
+}
+
+.globe3 {
+  position: absolute;
+  left: 95.42%;
+  right: 2.07%;
+  top: 4.76%;
+  bottom: 94.98%;
+
+  background: radial-gradient(
+        48.09% 41.81% at 60.37% 22.52%,
+        rgba(255, 255, 255, 0.55) 0%,
+        rgba(252, 252, 252, 0.22) 56.9%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(180deg, #ffcc80 0%, #a400ff 100%);
+  /* main shadow */
+
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.15);
+  transform: matrix(0.67, -0.74, 0.74, 0.67, 0, 0);
+}
+
+.photo {
+  position: absolute;
+  width: 623px;
+  height: 589px;
+  left: 910px;
+  top: 151px;
+
+  mix-blend-mode: normal;
+  /* main shadow */
+
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.15);
+}
